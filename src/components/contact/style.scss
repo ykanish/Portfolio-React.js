@@ -1,0 +1,16 @@
+@import "../../scss/variable.scss";
+@import "../../scss/mixin.scss";
+.contact-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 75px;
+    justify-content: center;
+    align-items: center;
+    @include small-screen{
+        flex-direction: row;
+        width: 100%;
+    }
+
+
+}

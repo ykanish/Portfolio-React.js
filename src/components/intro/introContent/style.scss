@@ -1,0 +1,225 @@
+@import "../../../scss/variable.scss";
+@import "../../../scss/mixin.scss";
+
+.intro-content {
+    flex-grow: 1;
+    display: flex;
+    // align-items: flex-end;
+    padding-top: 0px;
+    @include small-screen{
+        padding: 0;
+        align-items: flex-end;
+    }
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    @include small-screen{
+       flex-direction: row;
+    }
+}
+
+.left-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include small-screen{
+        width: 45%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    @include medium-screen {
+        padding-top: 0px;
+    }
+    @include large-screen {
+        padding: 0;
+        width: 37%;
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+    margin-top: 60px;
+    text-align: center;
+    @include small-screen{
+        text-align: left;
+    }
+}
+
+.small-text {
+    @include typography(24px, 400, 30px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    @include small-screen{
+        justify-content: flex-start;
+        @include typography(42px, 400, 48px)
+    }
+}
+
+.big-text {
+    @include typography(42px, 400, 52px);
+    @include small-screen{
+       
+        @include typography(62px, 400, 72px);
+    }
+    
+}
+
+.small-text .icon {
+    margin-left: 10px;
+}
+
+p {
+    @include typography(18px, 400, 24px);
+    margin: 15px 0;
+    padding: 0 15px;
+    color: $white;
+    text-align: center;
+    @include small-screen{
+       
+        @include typography(18px, 400, 24px);
+        padding: 0;
+        margin: 25px 0;
+        text-align: left;
+    }
+    
+}
+
+.right-col {
+    width: 100%;
+    // display: none;
+    align-items: flex-end;
+    position: relative;
+    flex-grow: 1;
+    @include small-screen{
+        width: 55%;
+        flex-grow: unset;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+    }
+    @include large-screen {
+        width: 63%;
+    }
+}
+
+.right-col img {
+    width: 30vw;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    right: -235px;
+    border-radius: 50%;
+    height: 20vh;
+    margin-bottom: 150px;
+    // border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        @include small-screen{
+            margin-bottom: 165px;
+            flex-grow: unset;
+            width: 45%;
+            display: block;
+            /* margin-top: -141px; */
+            position: relative;
+            right: -124px;
+            border-radius: 50%;
+            height: 55%;
+        }
+}
+
+.highlight {
+    position: absolute;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.highlight .icons {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: $yellow;
+    font-size: 24px;
+    color: $black-light;
+}
+
+.highlight .text {
+    padding: 0 10px;
+    @include typography(18px, 400, 24px);
+    color: $black-light;
+}
+
+.highlight .text span {
+    @include typography(18px, 400, 24px);
+}
+
+.horizontal {
+    width: 208px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    top: 250px;
+    left: 0;
+    padding: 20px 10px 20px 20px;
+    @include medium-screen {
+        top: 270px;
+        left: 120px;
+    }
+}
+
+.vertical {
+    width: 135px;
+    height: 165px;
+    min-height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    right: 60px;
+    padding: 20px;
+    padding-bottom: 10px;
+    //     background: rgba( 255, 255, 255, 0.25 );
+    // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    // backdrop-filter: blur( 4.5px );
+    // -webkit-backdrop-filter: blur( 4.5px );
+    // border-radius: 10px;
+    // border: 1px solid rgba( 255, 255, 255, 0.18 );
+    @include medium-screen {
+        top: 50px;
+        right: 60px;
+    }
+    @include large-screen {
+        top: 85px;
+        right: -10px;
+    }
+}
+
+.vertical .text {
+    padding: 0 10px;
+    @include typography(14px, 400, 18px);
+    color: $black-light;
+    margin-top: 10px;
+    text-align: center;
+}
+.vertical span {
+    @include typography(18px, 700, 24px);
+    display: block;
+    text-align: center;
+}

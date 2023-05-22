@@ -1,0 +1,47 @@
+@import "../../../scss/mixin.scss";
+@import "../../../scss/variable.scss";
+
+.fil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters-menu-items{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width:60vw;
+    list-style: none;
+    margin: 30px 0;
+    color:$white;
+    overflow: auto;
+    @include small-screen{
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .filter-menu{
+        @include typography(18px,400,22px);
+        padding: 10px 20px;
+        margin: 0,2.5px;
+        box-shadow: inset 0 0 0 0 $white;
+        transition: color 0.3s ease-in-out,box-shadow 0.3s ease-in-out;
+        cursor: pointer;
+        border-radius: 8px;
+        white-space: nowrap;
+        // overflow-x: hidden;
+        @include small-screen{
+            @include typography(22px, 400, 28px);
+            // padding: 10px 20px;
+            // margin: 0 2.5px;
+        }
+        &:hover,&:active{
+            box-shadow: inset 220px 0 0 0 $white;
+            color: $black;
+        }
+        
+    }
+}

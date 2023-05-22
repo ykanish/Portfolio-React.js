@@ -1,0 +1,47 @@
+@import '../../../scss/variable.scss';
+@import "../../../scss/mixin.scss";
+
+.contact-info-box{
+    background-color: $black-lighter;
+    width: 80vw;
+    height: 38vh;
+    border-radius: 6px;
+    color: $gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include small-screen{
+        width: 300px;
+    height: 300px;
+}
+    h4{
+        line-height: 34px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        // margin-bottom: 20px;
+
+    }
+
+    p{
+        
+        width: 200px;
+    }
+
+    .contact-option{
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        margin-top: 10px;
+        svg{
+            color: $yellow;
+            font-size: 16px;
+        }
+        .text{
+            color:$white;
+        margin-left: 15px;        }
+    }
+}
