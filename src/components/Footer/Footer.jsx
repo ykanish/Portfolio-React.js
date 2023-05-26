@@ -18,7 +18,7 @@ function Footer() {
             </ul>
 
             <div className="social-icon">
-                <Socialicon color = "#FF0000" icon = {<FaYoutube/>} link="https:/www.youtube.com"/>
+                {/* <Socialicon color = "#FF0000" icon = {<FaYoutube/>} link="https:/www.youtube.com"/> */}
                 <Socialicon color = "#0D2636" icon = {<FaGithub/>} link="https:/www.github.com/vijit200"/>
                 <Socialicon color = "#0A66C2" icon = {<FaLinkedinIn/>} link="https://www.linkedin.com/in/vijit-kumar-620101192/"/>
 

@@ -5,6 +5,10 @@ import skillimg from '../../images/tech-icons.png'
 import "./style.scss"
 import CalltoAction from '../shared/CalltoAction/CalltoAction'
 function Skill() {
+  const downloadCV = (url)=>{
+    window.open(url,"_blank")
+  }
+
   return (
     <div>
       <Section background="dark" id="skills">
@@ -27,7 +31,7 @@ function Skill() {
 
         
                 </p>
-                <CalltoAction text="Download cv" className="btn" icons={<AiOutlineCloudDownload/>}/>
+                <CalltoAction text="Download cv" action = {()=>{downloadCV("https://media.licdn.com/dms/document/media/C4D1FAQFsYCdDeml2ow/feedshare-document-pdf-analyzed/0/1672290724658?e=1685577600&v=beta&t=wKntNgHV9aAXcjAjDzjjPz_s961GuiOxdyiYaVawUh8")}} className="btn" icons={<AiOutlineCloudDownload/>}/>
             </div>
         </div>
       </Section>
