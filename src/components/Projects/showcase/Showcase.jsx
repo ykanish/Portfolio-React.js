@@ -9,11 +9,11 @@ function Showcase(props) {
                 <div className="meta-content">
                     <h3>{e.name}</h3>
                     <div className="go-to-cta">
-                        <a rel="noreferrer" className="text" href='https://github.com/vijit200' target="_blank" style={{whiteSpace:"nowrap", textDecoration:"none",color:"black"}}>
+                        <a rel="noreferrer" className="text" href={e.media.GitHub} target="_blank" style={{whiteSpace:"nowrap", textDecoration:"none",color:"black"}}>
                             <b>GitHub</b>
                         </a>
                         &nbsp;&nbsp;
-                        <a rel="noreferrer" className="text" href='https://github.com/vijit200' target="_blank" style={{whiteSpace:"nowrap" ,textDecoration:"none",color:"black"}}>
+                        <a rel="noreferrer" className="text" href={e.media.sitelink} target="_blank" style={{whiteSpace:"nowrap" ,textDecoration:"none",color:"black"}}>
                             <b>Project Link</b> 
                         </a>
                         <Arrow/>

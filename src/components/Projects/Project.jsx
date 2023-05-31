@@ -8,58 +8,72 @@ import { useState } from 'react'
 const projectsData = [
     {
         id: 1,
-        name: "Healthy Food Restraunt",
-        tags: ["web-app", "mobile-app"],
+        name: "Youtube Clone",
+        tags: ["web-page", "mobile-app"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-7.jpg"),
+            thumbnail: require("../../images/portfolio/youtubeclone.png"),
+            sitelink : "https://youtubeclone200.netlify.app/",
+            GitHub : "https://github.com/vijit200/youtube_clone"
         },
     },
     {
         id: 2,
-        name: "Anna & Daniel",
+        name: "Weather App",
         tags: ["web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-2.jpg"),
+            thumbnail: require("../../images/portfolio/weather app.webp"),
+            sitelink : "https://weatherapp260.netlify.app/",
+            GitHub : "https://github.com/vijit200/youtube_clone"
         },
     },
     {
         id: 3,
-        name: "Web Design Landing Page",
+        name: "Word Counter",
         tags: ["web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-8.jpg"),
+            thumbnail: require("../../images/portfolio/word-counter.jpg"),
+            sitelink : "https://word-counterutils.netlify.app//",
+            GitHub : "https://github.com/vijit200/TextUtils"
         },
     },
     {
         id: 4,
-        name: "Business Analytics Web App",
-        tags: ["web-app", "mobile-app"],
+        name: "Amazon Food Sales",
+        tags: ["data-analysis"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-1.jpg"),
+            thumbnail: require("../../images/portfolio/amazomfood sales.png"),
+            sitelink : "https://github.com/vijit200/amazonfood-sales",
+            GitHub : "https://github.com/vijit200/amazonfood-sales"
         },
     },
     {
         id: 5,
-        name: "Limitless",
-        tags: ["web-app", "web-page"],
+        name: "HR Dashboard",
+        tags: ["data-analysis"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-6.jpg"),
+            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+            sitelink : "https://github.com/vijit200/HR-Project",
+            GitHub : "https://github.com/vijit200/HR-Project"
         },
     },
     {
         id: 6,
-        name: "Dashboard",
-        tags: ["product", "web-app", "mobile-app"],
+        name: "Mushroom Prediction",
+        tags: ["machine-learning"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-4.jpg"),
+            thumbnail: require("../../images/portfolio/mushroom.png"),
+            sitelink : "https://github.com/vijit200/MushroomPrediction",
+            GitHub : "https://github.com/vijit200/MushroomPrediction"
         },
     },
     {
         id: 7,
-        name: "Digital Creative Agency",
-        tags: ["web-app"],
+        name: "Mask Detection",
+        tags: ["machine-learning"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-3.jpg"),
+            thumbnail: require("../../images/portfolio/mask detection.png"),
+            sitelink : "https://github.com/vijit200/Mask_Detection_CNN",
+            GitHub : "https://github.com/vijit200/Mask_Detection_CNN"
         },
     },
     {
@@ -68,6 +82,8 @@ const projectsData = [
         tags: ["web-app", "mobile-app", "web-page"],
         media: {
             thumbnail: require("../../images/portfolio/thumb-5.jpg"),
+            sitelink : "https://youtubeclone200.netlify.app/",
+            GitHub : "https://github.com/vijit200/youtube_clone"
         },
     },
 ]

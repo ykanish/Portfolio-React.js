@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 import Section from '../shared/section/Section'
-import {FaYoutube,FaGithub,FaLinkedinIn} from 'react-icons/fa'
+import {FaGithub,FaLinkedinIn} from 'react-icons/fa'
 import Socialicon from './social-icon/Socialicon'
 import {scrollToSection} from "../utils/helper"
 function Footer() {
