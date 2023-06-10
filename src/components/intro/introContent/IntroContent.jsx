@@ -19,7 +19,7 @@ function IntroContent() {
                         Vijit Kumar
                 </span>
             </h1>
-            <p>Lorem ipsum, dolor  ab ipsam est quis voluptate tempore.Pariatur dolor quo iste itaque inventore cum possimus quaerat neque odit tempora impedit voluptatem ipsa, porro animi quae corrupti magni. Consectetur et illum illo aperiam similique.
+            <p>As a skilled frontend developer, I excel at creating captivating user interfaces and engaging user experiences. With expertise in HTML, CSS, and JavaScript, I bring designs to life, optimize performance, and ensure seamless interaction between users and web applications.
             </p>
             <CalltoAction text="Get Started"/>
         </div>

@@ -78,12 +78,12 @@ const projectsData = [
     },
     {
         id: 8,
-        name: "Virtual Reality Experience",
+        name: "Movix",
         tags: ["web-app", "mobile-app", "web-page"],
         media: {
-            thumbnail: require("../../images/portfolio/thumb-5.jpg"),
-            sitelink : "https://youtubeclone200.netlify.app/",
-            GitHub : "https://github.com/vijit200/youtube_clone"
+            thumbnail: require("../../images/portfolio/movie.jpg"),
+            sitelink : "https://movixs.vercel.app/",
+            GitHub : "https://github.com/vijit200/movixs"
         },
     },
 ]
