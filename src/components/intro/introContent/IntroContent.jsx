@@ -1,7 +1,7 @@
 import React from 'react'
 import handIcon from '../../../images/hand.png'
 import CalltoAction from '../../shared/CalltoAction/CalltoAction'
-import girl from '../../../images/vijit.jpg'
+import boy from '../../../images/vijit.jpg'
 // import { BsAwardFill} from 'react-icons/bs'
 import "./style.scss"
 function IntroContent() {
@@ -25,7 +25,7 @@ function IntroContent() {
         </div>
 
         <div className="right-col">
-                <img src={girl} alt="girl"/>
+                <img src={boy} alt="boy"/>
                 {/* <div className="highlight horizontal">
                     <div className="icons">
                     <BsAwardFill/> </div>
