@@ -86,6 +86,16 @@ const projectsData = [
             GitHub : "https://github.com/vijit200/movixs"
         },
     },
+    {
+        id: 9,
+        name: "Food Recipe",
+        tags: ["web-app", "mobile-app", "web-page"],
+        media: {
+            thumbnail: require("../../images/portfolio/food.jpg"),
+            sitelink : "https://foodrecipefnder.netlify.app/",
+            GitHub : "https://github.com/vijit200/foodrecipe"
+        },
+    },
 ]
 
 function Project() {
