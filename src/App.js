@@ -6,7 +6,6 @@ import Project from './components/Projects/Project.jsx'
 import Intrest from './components/Intrest/Intrest.jsx'
 import Contact from './components/contact/Contact.jsx'
 import Footer from './components/Footer/Footer.jsx'
-
 const App = () => {
   return (
     <div>
@@ -16,6 +15,7 @@ const App = () => {
       <Intrest/>
       <Contact/>
       <Footer/>
+      
     </div>
   )
 }

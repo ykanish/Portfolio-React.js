@@ -15,7 +15,7 @@ function Navbar() {
   return (
     <div className='top-navigationbar'>
       <div className="app-logo">
-        <img src="https://cdn-icons-png.flaticon.com/512/1810/1810663.png" alt="app logo" />
+        {/* <img src="https://cdn-icons-png.flaticon.com/512/1810/1810663.png" alt="app logo" /> */}
       </div>
 
       <div className="mobile-menu" onClick={()=>setMobileMenu(!mobileMenu)}>
@@ -24,6 +24,7 @@ function Navbar() {
 
       <div className={`navigation ${mobileMenu?"active":""}`}>
         <span className="navigation-items" onClick={()=>{menuItemsClickHandler("skills")}}>Skills</span>
+        <span className="navigation-items blog" onClick={()=>{menuItemsClickHandler("intrest")}}>Coding Profiles</span>
         <span className="navigation-items" onClick={()=>{menuItemsClickHandler("portfolio")}}>Projects</span>
         <span className="navigation-items blog" onClick={()=>{menuItemsClickHandler("intrest")}}>Intrests</span>
         <CalltoAction text = "Contact Me" className="action" action={()=>{menuItemsClickHandler("section")}}/>

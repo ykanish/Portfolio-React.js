@@ -1,7 +1,7 @@
 import React from 'react'
 import handIcon from '../../../images/hand.png'
 import CalltoAction from '../../shared/CalltoAction/CalltoAction'
-import boy from '../../../images/vijit.jpg'
+import boy from '../../../images/linkedprofile.jpeg'
 // import { BsAwardFill} from 'react-icons/bs'
 import "./style.scss"
 function IntroContent() {
@@ -16,12 +16,12 @@ function IntroContent() {
                     <span className="text">, I Am</span>
                 </span>
                 <span className="big-text">
-                        Vijit Kumar
+                        Kanishk Yadav
                 </span>
             </h1>
-            <p>As a skilled frontend developer, I excel at creating captivating user interfaces and engaging user experiences. With expertise in HTML, CSS, and JavaScript, I bring designs to life, optimize performance, and ensure seamless interaction between users and web applications.
+            <p>Bsides being a skilled Software Developer am also interested in Coding practises and learning Algorithms. Apart from that am also a certified Cloud Practiner. I bring designs to life, optimize performance as well as make machines to run at their best.
             </p>
-            <CalltoAction text="Get Started"/>
+            {/* <CalltoAction text="Get Started"/> */}
         </div>
 
         <div className="right-col">

@@ -19,19 +19,21 @@ function Skill() {
             <div className="right-cols">
                 <h2>Skills</h2>
                 <p>
-                  <large><b><u>Frontend Developer</u> -</b> &nbsp; HTML,&nbsp;  CSS,&nbsp;  SAAS,&nbsp;  JavaScript,&nbsp; React.js,&nbsp; Redux,&nbsp;  Tailwind,&nbsp;  Bootstrap</large>
+                  <large><b><u>Software Developer</u> -</b> &nbsp; HTML,&nbsp;  CSS,&nbsp;  AWS,&nbsp;  JavaScript,&nbsp; React.js,&nbsp; DSA,&nbsp;  Bootstrap</large>
                   <br /><br />
-                  <large><b><u>Backend Developer</u> -</b> &nbsp;Node.js, &nbsp; Express.js, &nbsp;Python</large>
+                  <large><b><u>Backend Developer</u> -</b> &nbsp;Node.js, &nbsp; Express.js</large>
                   <br /><br />
-                  <large><b><u>Databases</u> -</b> &nbsp;MySQL, &nbsp; MongoDB</large>
+                  <large><b><u>Coding</u> -</b> &nbsp;DSA(with Java), &nbsp; Analysis of Algorithms</large>
                   <br /><br />
                   <large><b><u>Tools</u> -</b> &nbsp;Git, &nbsp;GitHub, &nbsp;Postman, &nbsp;Netlify</large>
                   <br /><br />
+                  <large><b><u>Databases</u> -</b> &nbsp;MySQL, &nbsp; MongoDB</large>
+                  <br /><br />
                   <large><b><u>Soft Skills</u> -</b> &nbsp;Interpersonal skills, &nbsp; Adaptibility, &nbsp; Team Work, &nbsp; Time Management, &nbsp; Problem Solving</large>
-
+                  
         
                 </p>
-                <CalltoAction text="Download cv" action = {()=>{downloadCV("https://drive.google.com/file/d/1FWoGqQdPJU4TmGv2aiCjqWVDAYKZdPmr/view")}} className="btn" icons={<AiOutlineCloudDownload/>}/>
+                <CalltoAction text="Download cv" action = {()=>{downloadCV("http://my-portfolio-kanishk.s3-website-us-east-1.amazonaws.com/")}} className="btn" icons={<AiOutlineCloudDownload/>}/>
             </div>
         </div>
       </Section>

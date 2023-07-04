@@ -19,15 +19,15 @@ function Footer() {
 
             <div className="social-icon">
                 {/* <Socialicon color = "#FF0000" icon = {<FaYoutube/>} link="https:/www.youtube.com"/> */}
-                <Socialicon color = "#0D2636" icon = {<FaGithub/>} link="https:/www.github.com/vijit200"/>
-                <Socialicon color = "#0A66C2" icon = {<FaLinkedinIn/>} link="https://www.linkedin.com/in/vijit-kumar-620101192/"/>
+                <Socialicon color = "#0D2636" icon = {<FaGithub/>} link="https://github.com/ykanish"/>
+                <Socialicon color = "#0A66C2" icon = {<FaLinkedinIn/>} link="https://www.linkedin.com/in/kanishk-yadav-357b93221/"/>
 
             </div>
 
             <div className="bottom-bar">
                 <div className="copyright-text">
-                    Copyright &copy; 2023 vijit kumar| All rights reserved <br />
-                                      Made By Vijit Kumar❤️
+                    Copyright &copy; 2023 Kanishk Yadav| All rights reserved <br />
+                                      Made By Kanishk Yadav❤️
                 </div>
             </div>
         </div>
